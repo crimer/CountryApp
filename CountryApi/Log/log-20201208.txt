@@ -1,0 +1,5 @@
+2020-12-08T23:55:22.3586655+10:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-12-08T23:55:22.3636812+10:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-12-08T23:55:22.3640557+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-12-08T23:55:22.3641064+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-12-08T23:55:22.3641277+10:00  [INF] Content root path: "D:\Programming\C#\ASP.NET CORE\CountryApi\CountryApi" (b5d60022)

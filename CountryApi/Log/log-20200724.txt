@@ -1,0 +1,6 @@
+2020-07-24T09:48:23.1352047+10:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2020-07-24T09:48:23.1408015+10:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2020-07-24T09:48:23.1411942+10:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-07-24T09:48:23.1412298+10:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-07-24T09:48:23.1412646+10:00  [INF] Content root path: "D:\Programming\C#\ASP.NET CORE\CountryApi" (b5d60022)
+2020-07-24T09:49:06.7795599+10:00 0HM1FCBHF9BLS:00000005 [INF] Log message in the GET method (3b4f5f80)
