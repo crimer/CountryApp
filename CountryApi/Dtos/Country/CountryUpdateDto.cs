@@ -1,6 +1,5 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using CountryApi.Entities.Country;
 
 namespace CountryApi.Dtos.Country
 {
@@ -18,6 +17,5 @@ namespace CountryApi.Dtos.Country
         public double GdpTotal { get; set; }
         public double HDI { get; set; }
         public string Currency { get; set; }
-        public CarTraffic CarTraffic { get; set; }
     }
 }

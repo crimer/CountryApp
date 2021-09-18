@@ -3,13 +3,6 @@ using System.ComponentModel;
 
 namespace CountryApi.Entities.Country
 {
-    public enum CarTraffic : byte
-    {
-        [Description("Левосторонее")]
-        Left = 1,
-        [Description("Правосторонее")]
-        Right = 2,
-    }
     public class CountryEntity
     {
         public int Id { get; set; }
@@ -22,6 +15,5 @@ namespace CountryApi.Entities.Country
         public double GdpTotal { get; set; }
         public double HDI { get; set; }
         public string Currency { get; set; }
-        public CarTraffic CarTraffic { get; set; }
     }
 }

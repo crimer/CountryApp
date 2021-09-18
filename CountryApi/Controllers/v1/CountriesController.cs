@@ -50,17 +50,17 @@ namespace CountryApi.Controllers.v1
 
         // POST api/country
         [HttpPost("addCountry")]
-        public async Task<IActionResult> AddCountry([FromBody] CityDto cityDto)
+        public async Task<IActionResult> AddCountry([FromBody] CountryDto countryDto)
         {
             try
             {
+                if (countryDto == null)
+                    return BadRequest();
+                
                 if (!ModelState.IsValid)
                     return BadRequest(ModelState);
                 
-                if (cityDto == null)
-                    return BadRequest();
-                
-                var countryModel = _mapper.Map<CountryEntity>(cityDto);
+                var countryModel = _mapper.Map<CountryEntity>(countryDto);
                 
                 await _countryRepository.Add(countryModel);
                 await _countryRepository.Save();
